@@ -26,7 +26,7 @@ Dependancy add in build.gradle
 
 # sevices class get the your token
 
- ``
+
  <service android:name=".MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
@@ -40,7 +40,7 @@ Dependancy add in build.gradle
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-``
+
 
 
 ``
