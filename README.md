@@ -8,10 +8,13 @@ First craete project in your firebase acount then get the google_services.json f
 ``
 Android gradle add classpath in google play service 
 `` 
+``
 dependencies {
         classpath 'com.google.gms:google-services:4.2.0'      
 }
 ``
+
+
 ``
 Dependancy add in build.gradle
  implementation 'com.google.firebase:firebase-messaging:17.3.4'
