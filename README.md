@@ -5,23 +5,20 @@ Firebase Console through send notification in android app
 First craete project in your firebase acount then get the google_services.json file and store project app foleder
 ``
 
-``
-Android gradle add classpath in google play service 
-`` 
 
- ``classpath 'com.google.gms:google-services:4.2.0'      
+# classpath in google play service 
 
+classpath 'com.google.gms:google-services:4.2.0'      
 
 
-``
-Dependancy add in build.gradle
-``
-``
+ # Dependancy add in build.gradle
+
  implementation 'com.google.firebase:firebase-messaging:17.3.4'
- ``
- ``
  implementation 'com.google.firebase:firebase-core:16.0.4'
-``
+
+# google play service plagin
+
+ apply plugin: 'com.google.gms.google-services'
 
 
 # sevices class get the your token
