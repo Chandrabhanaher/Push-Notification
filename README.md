@@ -10,6 +10,8 @@ Android gradle add classpath in google play service
 `` 
 ``
 dependencies {
+``
+``
         classpath 'com.google.gms:google-services:4.2.0'      
 }
 ``
@@ -17,7 +19,11 @@ dependencies {
 
 ``
 Dependancy add in build.gradle
+``
+``
  implementation 'com.google.firebase:firebase-messaging:17.3.4'
+ ``
+ ``
  implementation 'com.google.firebase:firebase-core:16.0.4'
 ``
 
