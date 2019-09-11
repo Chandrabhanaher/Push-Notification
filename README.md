@@ -9,7 +9,7 @@ First craete project in your firebase acount then get the google_services.json f
 Android gradle add classpath in google play service 
 `` 
 
- classpath 'com.google.gms:google-services:4.2.0'      
+ ``classpath 'com.google.gms:google-services:4.2.0'      
 
 
 
