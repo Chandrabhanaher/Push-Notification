@@ -8,13 +8,9 @@ First craete project in your firebase acount then get the google_services.json f
 ``
 Android gradle add classpath in google play service 
 `` 
-``
-dependencies {
-``
-``
-        classpath 'com.google.gms:google-services:4.2.0'      
-}
-``
+
+ classpath 'com.google.gms:google-services:4.2.0'      
+
 
 
 ``
@@ -25,6 +21,25 @@ Dependancy add in build.gradle
  ``
  ``
  implementation 'com.google.firebase:firebase-core:16.0.4'
+``
+
+
+# sevices class get the your token
+
+ ``
+ <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 ``
 
 
