@@ -1,4 +1,4 @@
-# Push-Notification
+# Firebase Console through send notification in android app
 Firebase Console through send notification in android app
 
 ``
