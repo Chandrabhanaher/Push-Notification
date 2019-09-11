@@ -12,10 +12,10 @@ classpath 'com.google.gms:google-services:4.2.0'
 
 
  # Dependancy add in build.gradle
-
+ ``
  implementation 'com.google.firebase:firebase-messaging:17.3.4'
  implementation 'com.google.firebase:firebase-core:16.0.4'
-
+``
 # google play service plagin
 
  apply plugin: 'com.google.gms.google-services'
